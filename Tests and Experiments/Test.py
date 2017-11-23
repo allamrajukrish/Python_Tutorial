@@ -88,4 +88,10 @@ print(varModular)
 varResult = ((12+13)*3)/5+150-(5**3)
 print("The Result is %d" %varResult)
 
-
+a=5**3
+b=12+13
+c=b*3
+d=c/5
+e=d+150
+f=e-a
+print(f)
