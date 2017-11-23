@@ -33,13 +33,36 @@ print("Final value of Multiplication is %d" %(val1 * val2))
 print(var1*var2)
 
 #Division
+print(48/6)
+
+print(5/2)
+
+print(96/8.0)
+
 divResult = 2/3
+
 print(divResult)
+
+varDivision = 44/11
+print(varDivision)
+
+print (44//11) # here // will round the division result
+
+print (5.0 // 2) # here // will round the division result
+
+varModular = 5%2 # which gives the reminder
+print(varModular) 
 
 modResult = 17%3
 print(modResult)
 
-
+#Exponent 
+print(5**3) 
+'''
+here ** is used to multiply the same number with 
+given number of times. You can also read it like
+5 exponent 3 or 5 cube 
+'''
 
 
 
