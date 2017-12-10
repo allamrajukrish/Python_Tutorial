@@ -61,28 +61,13 @@ list1=['Krish', 'prasanth', 'Theja']
 list2=['Swift','Python','Python']
 [{'Name': 'Krish', 'Language': 'Swift'},{'Name': 'prasanth', 'Language': 'Python'},{'Name': 'Theja', 'Language': 'Python'}]
 
+a={'Name': 'Krish', 'Language': 'Swift'}
+del a['Language']
+print(a)
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-print("Hello World")
-a="Python"
-b="A"
-print(a + "is learning" + b)
 
 
  

@@ -14,6 +14,8 @@ total of width.'''
 '''Counts how many times a string occurs 
 in another string or in a substring of string 
 if starting index beg and ending index end are given.'''
+print(myStr.count("st",0,len(myStr)))
+
 
 print(myStr.find("string",0,len(myStr)))
 
@@ -22,6 +24,7 @@ print(myStr.find("string",0,len(myStr)))
 substring of string if starting index 
 beg and ending index end are given returns 
 index if found and -1 otherwise.'''
+
 print(myStr.index("string",0,len(myStr)))
 #index(str, beg = 0, end = len(string))
 '''Same as find(), but raises an exception 
@@ -35,7 +38,7 @@ print(myStr.index('just',0,len(myStr)))
 '''This method returns true if string has 
 at least 1 character and all characters 
 are alphanumeric and false otherwise.'''
-str1="1A"
+str1="A1"
 print("-------------------")
 print(str1.isalnum())
 print("-------------------")
@@ -47,7 +50,7 @@ print("-------------------")
 at least 1 character and all characters 
 are numeric and false otherwise.'''
 
-str1="a123"
+str1="A123!"
 print("+++++++++++++++++++")
 print(str1.isdigit())
 print("+++++++++++++++++++++")
@@ -84,7 +87,7 @@ print(a.isnumeric())
 #isspace()
 '''This method returns true if string contains only 
 whitespace characters and false otherwise.'''
-myStr = "                "
+myStr = "    Hi Good            "
 print("______________________")
 print(myStr.isspace())
 print("______________________")
